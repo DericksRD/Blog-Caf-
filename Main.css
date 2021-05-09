@@ -95,7 +95,7 @@ html {
     max-width: 100%;
 }
 
-.wrapper__entry__title {
+.wrapper__subtitle {
     margin: 1.7rem 0;
     font-size: 2rem;
 }
@@ -107,14 +107,37 @@ html {
     margin-bottom: 1.5rem;
 }
 
-.wrapper_button {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: white;
+.wrapper__aside {
+    height: 15rem;
+    position: relative;
+}
+
+.wrapper__button {
     background-color: black;
+}
+
+.wrapper__button-workshop {
+    background-color: #AC5E52;
+}
+
+.wrapper__information {
+    font-size: 1.5rem;
+    margin: 2.3rem 0;
+}
+
+.wrapper__information span {
+    font-weight: bold;
+}
+
+.wrapper__button,
+.wrapper__button-workshop {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem;
     position: absolute;
     bottom: 0;
     text-align: center;
     width: 100%;
-    padding: .5rem 1rem;
 }
