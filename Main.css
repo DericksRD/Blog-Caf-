@@ -7,15 +7,39 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    /*
+     * El tamaño sigue siendo 16 px pero se actualiza el 
+     * rem a 10px en html
+     */
+}
+
+
+/*
+ * Así no hace falta agregar ese estilo a cada elemento
+ * que lo necesite.
+ */
+
+.no-margin {
     margin: 0;
+}
+
+.no-padding {
     padding: 0;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .hero {
     background-image: url(img/banner.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center center;
     height: 40rem;
     text-align: center;
     width: 100%;
@@ -30,6 +54,7 @@ html {
     .hero__main {
         display: flex;
         justify-content: space-between;
+        /*align-items para alinear elementos verticalmente*/
     }
     .hero__nav {
         display: flex;
@@ -50,20 +75,27 @@ html {
 .hero__title {
     color: white;
     font-size: 4rem;
+    font-weight: normal;
+    /*normal => 400*/
+}
+
+.hero__title span {
+    font-weight: bold;
+    /*bold => 700*/
 }
 
 .hero__nav {
     list-style: none;
 }
 
-.hero__nav li a {
+.hero__nav a {
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
     margin: 2rem;
 }
 
-.hero__nav li a:hover {
+.hero__nav a:hover {
     text-decoration: underline;
 }
 
