@@ -88,6 +88,7 @@ body {
     color: white;
     font-size: 1.5rem;
     margin: 2rem;
+    display: block;
 }
 
 .hero__nav a:hover {
@@ -128,10 +129,11 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.wrapper__aside {
+
+/* .wrapper__aside {
     height: 15rem;
     position: relative;
-}
+} */
 
 .wrapper__button {
     background-color: black;
@@ -152,13 +154,12 @@ body {
 
 .wrapper__button,
 .wrapper__button-workshop {
+    display: block;
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
     color: white;
     padding: 1rem;
-    /* position: absolute;
-    bottom: 0; */
     text-align: center;
     width: 100%;
 }
@@ -176,5 +177,9 @@ body {
          * display: flex;
          * gap: 2rem; 
          */
+    }
+    .wrapper__button,
+    .wrapper__button-workshop {
+        display: inline;
     }
 }
