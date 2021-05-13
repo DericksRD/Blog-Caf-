@@ -74,6 +74,11 @@ body {
     /*normal => 400*/
 }
 
+.hero__title a {
+    text-decoration: none;
+    color: white;
+}
+
 .hero__title span {
     font-weight: bold;
     /*bold => 700*/
@@ -182,6 +187,13 @@ body {
     .wrapper__button-workshop {
         display: inline;
     }
+}
+
+
+/**FOOTER**/
+
+footer {
+    background-color: black;
 }
 
 
