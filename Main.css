@@ -206,18 +206,34 @@ footer {
 
 @media (min-width: 768px) {
     .container {
-        width: 60%;
-        margin: 0 auto;
+        width: 80%;
+        margin: 4rem auto;
     }
 }
 
 .div-img img {
     width: 100%;
-    max-height: 50rem;
+    max-height: 60rem;
     background-size: cover;
 }
 
 .blog-info {
     line-height: 3rem;
     text-align: justify;
+}
+
+
+/**ABOUT US**/
+
+@media (min-width: 768px) {
+    .container__flex {
+        display: flex;
+        gap: 2rem;
+    }
+    .container__info {
+        flex: 3;
+    }
+    .div-img {
+        flex: 2.5;
+    }
 }
