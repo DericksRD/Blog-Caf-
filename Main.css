@@ -151,6 +151,7 @@ body {
 .wrapper__information {
     font-size: 1.5rem;
     margin: 2.3rem 0;
+    text-align: justify;
 }
 
 .wrapper__information span {
@@ -236,4 +237,25 @@ footer {
     .div-img {
         flex: 2.5;
     }
+}
+
+
+/**COURSES**/
+
+@media (min-width: 768px) {
+    .container__div-img {
+        flex: 1;
+    }
+    .container__div-img img {
+        height: 35rem;
+    }
+    .wrapper__aside {
+        flex: 2;
+    }
+}
+
+.courses {
+    margin: 3rem 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e1e1e1;
 }
